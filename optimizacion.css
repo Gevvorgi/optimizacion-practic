@@ -1,3 +1,4 @@
+
 body {
     margin: 0;
     padding: 0;
@@ -5,7 +6,7 @@ body {
     width: auto;
   }
   body #page {
-    background: url(https://i.postimg.cc/VYN9sGVd/bg-home.jpg) no-repeat scroll center top #000000;
+    background: url(https://github.com/Gevvorgi/optimizacion-practic/blob/main/img/bg-home.jpg?raw=true) no-repeat scroll center top #000000;
     margin: 0;
     overflow: hidden;
     padding: 0;
@@ -408,7 +409,7 @@ body {
     opacity: 0.7;
   }
   #body.home .footer div ul li a span {
-    background: url(https://i.postimg.cc/JzpbcZGr/icons.png) no-repeat 0 -152px;
+    /* background: url(https://i.postimg.cc/JzpbcZGr/icons.png) no-repeat 0 -152px; */
     display: block;
     height: 72px;
     left: 199px;
@@ -419,7 +420,7 @@ body {
     width: 62px;
   }
   #body.home .footer div ul li a:hover span {
-    background: url(https://i.postimg.cc/JzpbcZGr/icons.png) no-repeat 0 -226px;
+    /* background: url(https://i.postimg.cc/JzpbcZGr/icons.png) no-repeat 0 -226px; */
   }
   #body.home .footer div ul li ul {
     display: inline-block;
@@ -512,7 +513,7 @@ body {
   }
   /*----------------------------------------body-styles---------------------------------------*/
   #body.about .header {
-    background: url(https://i.postimg.cc/FsQg9hM4/bg-about.jpg) no-repeat center top #000000;
+    background: url(https://github.com/Gevvorgi/optimizacion-practic/blob/main/img/bg-about.jpg?raw=true) no-repeat center top #000000;
     margin: 0;
     min-height: 455px;
     padding: 0;
@@ -1331,39 +1332,50 @@ body {
     padding: 0 0 0 20px;
     width: 380px;
   }
+  .icon {
+    fill: #fff;
+    height: 36px;
+    /* width: 18px; */
+    /* width: 37px; */
+  }
   #footer .connect div div a {
-    background: url(https://i.postimg.cc/JzpbcZGr/icons.png) no-repeat;
+    /* background: url(https://i.postimg.cc/JzpbcZGr/icons.png) no-repeat; */
     display: block;
     float: left;
-    height: 36px;
+    /* height: 36px; */
     margin: 0;
     padding: 0;
-    text-indent: -99999px;
-    width: 18px;
+    /* text-indent: -99999px; */
+    /* width: 18px; */
   }
-  #footer .connect div div a.facebook {
+
+  /* .icon:hover {
+    fill: red;
+  } */
+  /* #footer .connect div div a.facebook {
     background-position: 0 0;
     margin: 0 0 0 16px;
     width: 18px;
-  }
+  } */
   #footer .connect div div a.twitter {
     background-position: 0 -114px;
     margin: 0 0 0 28px;
     width: 44px;
   }
   #footer .connect div div a.googleplus {
-    background-position: 0 -38px;
+    /* background-position: 0 -38px; */
     margin: 0 0 0 27px;
-    width: 37px;
+    width: 50px;
   }
   #footer .connect div div a.pinterest {
     background-position: 0 -76px;
-    margin: 0 0 0 29px;
+    margin: 0 0 0 20px;
     width: 30px;
   }
-  #footer .connect div div a.facebook:hover {
+  /* #footer .connect div div a.facebook:hover {
     background-position: -20px 0;
-  }
+  } */
+
   #footer .connect div div a.twitter:hover {
     background-position: -46px -114px;
   }
