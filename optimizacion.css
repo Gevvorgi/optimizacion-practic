@@ -6,6 +6,7 @@ body {
     width: auto;
   }
   body #page {
+    background: #000000;
     background: url(https://github.com/Gevvorgi/optimizacion-practic/blob/main/img/bg-home.jpg?raw=true) no-repeat scroll center top #000000;
     margin: 0;
     overflow: hidden;
@@ -409,7 +410,6 @@ body {
     opacity: 0.7;
   }
   #body.home .footer div ul li a span {
-    /* background: url(https://i.postimg.cc/JzpbcZGr/icons.png) no-repeat 0 -152px; */
     display: block;
     height: 72px;
     left: 199px;
@@ -418,9 +418,6 @@ body {
     position: absolute;
     top: 94px;
     width: 62px;
-  }
-  #body.home .footer div ul li a:hover span {
-    /* background: url(https://i.postimg.cc/JzpbcZGr/icons.png) no-repeat 0 -226px; */
   }
   #body.home .footer div ul li ul {
     display: inline-block;
@@ -1335,35 +1332,19 @@ body {
   .icon {
     fill: #fff;
     height: 36px;
-    /* width: 18px; */
-    /* width: 37px; */
   }
   #footer .connect div div a {
-    /* background: url(https://i.postimg.cc/JzpbcZGr/icons.png) no-repeat; */
     display: block;
     float: left;
-    /* height: 36px; */
     margin: 0;
     padding: 0;
-    /* text-indent: -99999px; */
-    /* width: 18px; */
   }
-
-  /* .icon:hover {
-    fill: red;
-  } */
-  /* #footer .connect div div a.facebook {
-    background-position: 0 0;
-    margin: 0 0 0 16px;
-    width: 18px;
-  } */
   #footer .connect div div a.twitter {
     background-position: 0 -114px;
     margin: 0 0 0 28px;
     width: 44px;
   }
   #footer .connect div div a.googleplus {
-    /* background-position: 0 -38px; */
     margin: 0 0 0 27px;
     width: 50px;
   }
@@ -1372,9 +1353,6 @@ body {
     margin: 0 0 0 20px;
     width: 30px;
   }
-  /* #footer .connect div div a.facebook:hover {
-    background-position: -20px 0;
-  } */
 
   #footer .connect div div a.twitter:hover {
     background-position: -46px -114px;
@@ -1421,6 +1399,9 @@ body {
   
   /* Website template by freewebsitetemplates.com */
   @media only screen and (min-width: 320px) and (max-width: 568px) {
+    body #page {
+      background: url(https://github.com/Gevvorgi/optimizacion-practic/blob/main/img/bg-home-mobile.jpg?raw=true) no-repeat scroll center top #000000;
+    }
   }
   @media only screen and (max-width: 568px) and (orientation: landscape) {
   }
